@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="micss.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aqui anirà el menu</h1>
+    </header>
+
+    <main>
+        <form method="post" action="#" name="f1" id="f1">
+        <label>Asunto:</label>
+        <input type="text" id="Asunto" name="asunto" value="" placeholder="escriu l' assumpte" required>
+        <label>Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="" placeholder="escriu el nombre" required>
+        <label>Edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="edad" min="18" max="23">
+
+        <fieldset id="camp" name="camp">
+            <legend>Omplir la adreça</legend>
+            <label>Tipo de direccion:</label>
+            <select id="tipovia" name="tipovia">
+                <option value="" selected> Selecciona una opcion:</option>
+                <option value="calle">Calle</option>
+                <option value="rambla">Rambla</option>
+                <option value="plaza">Plaza</option>
+            </select>
+            <label>Direccion</label>
+            <input type="text" id="direccion" name="direccion" value="" placeholder="escriu la direccion" required>
+        </fieldset>
+
+        <label>Correo electronico:</label>
+        <input type="email" id="email" name="email" placeholder="ashao@ashid.com">
+        <input type="checkbox" id="mayor" name="mayor" checked>
+        confirmo si soy mayor de edad
+        <label>eres mayor de edad?</label>
+        Sí<input type="radio" id="mayor2" name="mayor2" value="1">
+        No<input type="radio" id="mayor2" name="mayor2" value="0">
+        <label>Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" cols="20" rows="5" maxlength="225" minlength="20"
+            placeholder="escriu el teu missatge"></textarea>
+
+        </textarea>
+
+        <input type="hidden" id="oculto" value="f1" name="oculto" value="f1">
+        <input type="submit" id="enviar" name="enviar" value="enviar el formulario">
+        <input type="reset" id="borrar" name="borrar" value="borrar el formulario">
+        </form>
+
+    </main>
+    <footer></footer>
+</body>
+
+</html>

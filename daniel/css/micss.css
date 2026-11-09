@@ -1,0 +1,21 @@
+label{
+    font-weight: bolder;
+    display: block;
+    color: rgb(113, 36, 185);
+    padding: 10px;
+}
+#camp{
+    background-color: rgba(189, 255, 254, 0.863);
+}
+
+legend{
+
+    background-color: rgb(191, 255, 234);
+}
+
+input{
+
+    display: block;
+    color: rgb(166, 107, 221);
+    
+}
